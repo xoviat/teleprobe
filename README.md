@@ -22,7 +22,7 @@ teleprobe local run --elf test_max31865 --chip STM32H743BITx --probe 0483:374e
 Starts a HTTP server responsible for remotely flashing connected MCUs.
 
 ```
-teleprobe server
+teleprobe server 
 ```
 
 The server listens on port `8080` by default, this can be changed via the `--port XX` option.
